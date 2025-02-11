@@ -1,9 +1,7 @@
 {
   "npmClient": "pnpm",
   "packages": [
-    // "packages/element-ui",
-    "packages/t-design",
-    // "packages/vant"
+    "packages/t-design"
   ],
-  "version": "3.2.10"
+  "version": "3.2.11"
 }
