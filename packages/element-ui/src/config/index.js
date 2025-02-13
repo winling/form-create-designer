@@ -39,6 +39,7 @@ import table from './rule/table';
 import tableForm from './rule/tableForm';
 import tableFormColumn from './rule/tableFormColumn';
 import image from './rule/image';
+import singleCheckbox from './rule/singleCheckbox';
 
 
 const ruleList = [
@@ -46,7 +47,7 @@ const ruleList = [
     group, subForm, tableForm, tableFormColumn,
     alert, button, text, html, divider, tag, image,
     row, table, tabs, space, card, collapse,
-    col, tabPane, collapseItem,
+    col, tabPane, collapseItem,singleCheckbox
 ];
 
 export default ruleList;

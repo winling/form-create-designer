@@ -359,6 +359,18 @@ const ZhCn = {
             }
         },
         checkbox: {
+            name: '多选框组',
+            props: {
+                input: '是否可以填写',
+                type: '按钮类型',
+                disabled: '是否禁用',
+                min: '可被勾选的最小数量',
+                max: '可被勾选的最大数量',
+                textColor: '当按钮为活跃状态时的字体颜色',
+                fill: '当按钮为活跃状态时的边框和背景颜色'
+            }
+        },
+        't-checkbox': {
             name: '多选框',
             props: {
                 input: '是否可以填写',
@@ -368,6 +380,21 @@ const ZhCn = {
                 max: '可被勾选的最大数量',
                 textColor: '当按钮为活跃状态时的字体颜色',
                 fill: '当按钮为活跃状态时的边框和背景颜色'
+            }
+        },
+        't-input-number':{
+            name: '数字输入框',
+            event: {
+                change: '当值改变时，当组件失去焦点或用户按Enter时触发',
+            },
+            props: {
+                theme: 'theme',
+                max: '最大',
+                min: '最小',
+                placeholder: '输入框占位文本',
+                clearable: '是否显示清除按钮',
+                disabled: '是否禁用',
+                readonly: '是否只读',
             }
         },
         col: {

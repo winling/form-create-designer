@@ -359,7 +359,7 @@ const ZhCn = {
             }
         },
         checkbox: {
-            name: '多选框',
+            name: '多选框组',
             props: {
                 input: '是否可以填写',
                 type: '按钮类型',

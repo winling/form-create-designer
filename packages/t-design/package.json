@@ -1,6 +1,6 @@
 {
-    "name": "@form-create/t-designer",
-    "version": "3.2.13",
+    "name": "form-tdesigner",
+    "version": "3.2.16",
     "description": "好用的Vue低代码可视化表单设计器，可以通过拖拽的方式快速创建表单，提高开发者对表单的开发效率。",
     "unpkg": "./dist/index.umd.js",
     "jsdelivr": "./dist/index.umd.js",
@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xaboy/form-create-designer.git"
+        "url": "git+https://github.com/winling/form-create-designer"
     },
     "publishConfig": {
         "access": "public"
@@ -46,7 +46,7 @@
     "author": "xaboy",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/xaboy/form-create-designer/issues"
+        "url": "https://github.com/winling/form-create-designer/issues"
     },
     "homepage": "https://form-create.com",
     "devDependencies": {
@@ -89,5 +89,6 @@
         "js-beautify": "^1.15.1",
         "tdesign-vue-next": "^1.10.7",
         "vuedraggable": "4.1.0"
-    }
+    },
+    "gitHead": "5e92018a65842a61f615a103da35b85d2728270c"
 }

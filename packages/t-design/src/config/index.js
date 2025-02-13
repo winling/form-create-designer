@@ -14,6 +14,7 @@ import dateRange from './rule/dateRange';
 import rate from './rule/rate';
 import color from './rule/color';
 import row from './rule/row';
+import singleCheckbox from './rule/tCheckbox';
 import col from './rule/col';
 import tabPane from './rule/tabPane';
 import divider from './rule/divider';
@@ -39,6 +40,7 @@ import table from './rule/table';
 import tableForm from './rule/tableForm';
 import tableFormColumn from './rule/tableFormColumn';
 import image from './rule/image';
+import tNumberInput from './rule/tNumberInput'
 
 
 const ruleList = [
@@ -46,7 +48,7 @@ const ruleList = [
     group, subForm, tableForm, tableFormColumn,
     alert, button, text, html, divider, tag, image,
     row, table, tabs, space, card, collapse,
-    col, tabPane, collapseItem,
+    col, tabPane, collapseItem, singleCheckbox,tNumberInput
 ];
 
 export default ruleList;

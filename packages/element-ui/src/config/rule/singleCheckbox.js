@@ -1,8 +1,8 @@
 import uniqueId from '@form-create/utils/lib/unique';
 import {localeProps, makeOptionsRule, makeTreeOptions} from '../../utils/index';
 
-const label = '多选框组';
-const name = 'checkbox';
+const label = '多选框';
+const name = 'fcCheckbox';
 
 export default {
     menu: 'main',
@@ -22,7 +22,6 @@ export default {
             },
             $required: false,
             props: {},
-            value:[''],
             options: makeTreeOptions(t('props.option'), {label: 'label', value: 'value'}, 1)
         };
     },
