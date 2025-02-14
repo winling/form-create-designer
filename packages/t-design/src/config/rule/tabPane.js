@@ -1,7 +1,7 @@
 import {localeProps} from '../../utils';
 
 const label = '选项卡';
-const name = 'elTabPane';
+const name = 'tTabPanel';
 
 export default {
     label,
@@ -12,7 +12,7 @@ export default {
     mask: false,
     rule({t}) {
         return {
-            type: name,
+            type: 't-tab-panel',
             props: {label: t('com.elTabPane.name')},
             children: []
         };

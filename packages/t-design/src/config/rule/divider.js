@@ -1,7 +1,7 @@
 import {localeOptions, localeProps} from '../../utils';
 
 const label = '分割线';
-const name = 'elDivider';
+const name = 'tDivider';
 
 export default {
     menu: 'aide',

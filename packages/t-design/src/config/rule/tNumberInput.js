@@ -18,7 +18,9 @@ export default {
       title: t("com.input.name"),
       info: "",
       $required: false,
-      props: {},
+      props: {
+        autoWidth: true,
+      },
     };
   },
   props(_, { t }) {
@@ -43,25 +45,25 @@ export default {
       {
         field: "min",
         type: "inputNumber",
-        props: {
-          min: 0,
-        },
       },
       {
         field: "max",
         type: "inputNumber",
-        props: {
-          min: 0,
-        },
       },
       {
         type: "input",
         field: "placeholder",
       },
       {
-        type: "switch",
-        field: "clearable",
+        type: "input",
+        field: "suffix",
       },
+
+      {
+        type: "inputNumber",
+        field: "decimalPlaces",
+      },
+      { type: "inputNumber", field: "step", props: { min: 0 } },
     ]);
   },
 };

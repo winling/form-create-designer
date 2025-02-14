@@ -12,13 +12,14 @@ export default {
     event: ['change', 'blur', 'focus', 'visibleChange'],
     rule({t}) {
         return {
-            type: 'timePicker',
+            type: 't-time-range-picker',
             field: uniqueId(),
             title: t('com.timeRange.name'),
             info: '',
+            value:[],
             $required: false,
             props: {
-                isRange: true,
+                
             },
         };
     },

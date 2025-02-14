@@ -379,7 +379,7 @@
           </el-container>
           <el-aside
             class="_fc-r"
-            width="320px"
+            width="360px"
             v-if="!config || config.showConfig !== false"
           >
             <el-container style="height: 100%">
