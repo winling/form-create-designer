@@ -22,7 +22,8 @@ const ZhCn = {
     componentMode: "生成组件",
     htmlMode: "生成HTML",
     document: "帮助文档",
-    controlDocument: "需要更详细的配置方法？请查看{doc}",
+    controlDocument:
+      "需要更详细的配置方法？请查看https://form-create.com/v3/guide/control#%E7%BB%84%E4%BB%B6%E5%8A%A8%E6%80%81%E8%81%94%E5%8A%A8%E6%95%99%E7%A8%8B",
     onSubmit: "表单提交时触发",
     onReset: "表单重置后触发",
     onCreated: "表单组件初始化完毕后触发",
@@ -110,6 +111,7 @@ const ZhCn = {
       args: "事件的原始参数",
     },
   },
+
   eventInfo: {
     blur: "失去焦点时触发",
     focus: "获得焦点时触发",
